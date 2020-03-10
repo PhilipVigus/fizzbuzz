@@ -26,4 +26,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(30)).to eq 'Fizzbuzz'
   end
 
+  it 'returns the number when passed anything else' do
+    expect(fizzbuzz(2)).to eq 2
+    expect(fizzbuzz(26)).to eq 26
+  end
+
 end
