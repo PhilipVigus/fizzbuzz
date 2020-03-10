@@ -20,7 +20,16 @@ gem install rspec
 
 ## Usage
 
-The only code in the project is a single method defined in fizzbuzz.rb, and an rspec test file, so there is nothing really to use.
+The only code in the project is a single method defined in fizzbuzz.rb, and an rspec test file. To use the method:
+```ruby
+# assumes you're in the same directory
+require 'fizzbuzz.rb'
+
+# then
+puts fizzbuzz(3) # prints 'Fizz'
+puts fizzbuzz(15) # prints 'FizzBuzz'
+# etc...
+```
 
 ## Running tests
 
