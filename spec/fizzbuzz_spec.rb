@@ -20,4 +20,10 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(4)).not_to eq 'Buzz'
     expect(fizzbuzz(7)).not_to eq 'Buzz'
   end
+
+  it 'returns "Fizzbuzz" when passed multiples of 3 and 5' do
+    expect(fizzbuzz(15)).to eq 'Fizzbuzz'
+    expect(fizzbuzz(30)).to eq 'Fizzbuzz'
+  end
+
 end
